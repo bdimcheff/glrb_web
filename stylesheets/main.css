@@ -1,0 +1,210 @@
+body {
+	color: #fff;
+	font: .75em "Lucida Grande", arial, helvetica, sans-serif;
+	background: #535353;
+	padding: 0;
+	margin: 0;
+}
+
+img {
+	border: none;
+}
+
+h1, h2, h3, h4 {
+	font-family: "Lucida Grande", arial, helvetica, sans-serif;
+}
+
+#container {
+	position: relative;
+	width: 830px;
+	margin: 30px auto;
+}
+
+/* Intro Copy (with Date)
+----------------------------------------------- */
+
+#intro {
+	color: #000;
+	height: 206px;
+	padding: 0 0 5px 0;
+	border: 8px solid #fff;
+	position: relative;
+	background: #19A3D6 url(../images/intro_bg_2.jpg) repeat-x;
+}
+
+#intro h1 { 
+	/* background: #4fc0ec; */
+	padding: 4px 0 0 27px;
+	margin: 0;
+}
+#intro h1 a {
+	text-decoration: none;
+	color: #FFF;
+	font-size: 2.5em;
+}
+
+#intro h2 {
+	text-align: right;
+	color: #fff;
+	font-size: 3em;
+	text-transform: uppercase;
+	margin: 0 5px 0 0;
+}
+
+#intro img {
+	border-right:9px solid white;
+	float:left;
+}
+
+/* Main Navigation
+----------------------------------------------- */
+ul#mnav {
+	margin: 0;
+	padding: 0;
+	list-style:none;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	float: right;
+}
+
+ul#mnav li {
+  float: left;
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+
+	ul#mnav a {
+		color: #fff;
+		font-size: 15px;
+		background: #000;
+		padding: 10px 17px;
+  	margin: 0 2px 0 0;
+  	display: block;
+		text-transform: uppercase;
+		text-decoration: none;
+  }
+
+	ul#mnav a:hover {
+		color: #fff;
+		background: #ae0b00;
+		text-decoration: none;
+	}
+
+
+#content-holder {
+	color: #000;
+	background: #fff url(../images/shade-grey.gif) repeat-x top left;
+	padding: 5px;
+	border: 8px solid #fff;
+	margin-top: 10px;
+}
+
+#content-holder a {
+	color: #ae0b00;
+	text-decoration: none;
+}
+
+#content-holder a:hover {
+	color: #fff;
+	background: #ae0b00;
+}
+
+/* Main Content
+----------------------------------------------- */
+#mcontent {
+	margin-left: 265px;
+	margin-right: 35px;
+	line-height: 1.75em;
+}
+
+#mcontent_solo {
+line-height: 1.75em;
+}
+
+	#mcontent h2, #mcontent_solo h2 {
+		color: #cb1408;
+		font-size: 2.25em;
+		font-weight: normal;
+		border-top: 4px solid #07a5df;
+		padding-top: 5px;
+		margin-bottom: 0;
+	}
+
+
+
+.postmeta {
+	color: #666;
+	font-style: italic;
+	border-top: 1px solid #ccc;
+	padding-bottom: 20px;
+}
+
+.bold { font-weight: bold; }
+
+ul#speakers li { border: .1em dotted black; padding: 1em; margin: 1em; list-style: none; }
+
+ul#speakers li p:first-child { margin-top: 0; }
+
+ul#speakers li ul.story { margin: 0; }
+ul#speakers li ul.story li { list-style: none; border: none; margin: 0; padding: 0; }
+
+table { border: .1em solid black; margin: 1em 0; width: 100%; top; border-spacing: 0; }
+tr.zebra { background-color: #CEF; }
+th { background-color: #09F; }
+td { padding: .5em; vertical-align: top; }
+td:first-child {
+	text-decoration: underline;
+}
+td:nth-child(2) {
+	font-weight: bold;
+}
+tr.description td { text-decoration: none; }
+
+.name { font-size: 1.5em; }
+
+/* Sidepanel
+----------------------------------------------- */
+
+#sidepanel {
+  float: left;
+width: 235px;
+/*	
+margin-right: 430px;
+	padding-left: 5px;
+*/}
+	#sidepanel h3 {
+		color: #0380af;
+		border-bottom: 1px dashed #999;
+	}
+
+ul.sponsors {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+ul.sponsors li {
+	text-align: center;
+	padding: 1em 0;
+}
+ul.sponsors a:hover {
+	background-color: transparent !important;
+}
+
+/* Footer
+----------------------------------------------- */
+
+#footer {
+	clear: both;
+	background: #CCC;
+	padding: 10px;
+}
+
+#footer p {
+	margin: 0;
+	color: #666;
+	text-align: center;
+}
+
+img {behavior: url(/stylesheets/theme/pngHack.htc);}

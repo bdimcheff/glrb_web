@@ -1,0 +1,14 @@
+1. Advanced Rails Recipes
+2. Advanced Rails
+3. Best of Ruby Quiz
+4. Flexible Rails
+5. Learning Ruby
+6. Rails Cookbook
+7. Ruby for Rails
+8. Ruby for Rails
+9. Ruby Cookbook
+10. Ruby Pocket Reference
+11. Simply Rails 2, 2Ed
+12. The Ruby Programming Language
+13. Build Your Own Ruby on Rails Web Applications
+14. T-Shirt

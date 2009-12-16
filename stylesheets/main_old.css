@@ -1,0 +1,26 @@
+body { background: #fff5b8; }
+div#container {  }
+div#left_border { }
+div#main { }
+div#right_border { }
+
+div.roundedcornr_top div {
+   background: url(roundedcornr_505127_tl.png) no-repeat top left;
+}
+div.roundedcornr_top {
+   background: url(roundedcornr_505127_tr.png) no-repeat top right;
+}
+div.roundedcornr_bottom div {
+   background: url(roundedcornr_505127_bl.png) no-repeat bottom left;
+}
+div.roundedcornr_bottom {
+   background: url(roundedcornr_505127_br.png) no-repeat bottom right;
+}
+
+div.roundedcornr_top div, .roundedcornr_top, 
+div.roundedcornr_bottom div, .roundedcornr_bottom {
+   width: 100%;
+   height: 7px;
+   font-size: 1px;
+}
+div.roundedcornr_content { margin: 0 7px; }
